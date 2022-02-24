@@ -1,0 +1,33 @@
+/*reset*/
+body,
+h1,
+h2,
+ul,
+li,
+p,
+dd,
+dt,
+dl {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Imagens responsivas*/
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/*Tirar estilo da lista*/
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: #faf6ed;
+  color: #222222;
+  -webkit-font-smoothing: antialiased;
+  display: grid;
+  grid-template-columns: 1fr 120px 1fr minmax(300px, 800px) 1fr;
+}
